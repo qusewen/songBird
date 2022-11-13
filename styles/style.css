@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin:  0 auto;
+}
+.header{
+    padding: 20px 0;
+    background-color: blueviolet;
+}
+
+.header__logo-title{
+color: aquamarine;
+font-size: 40px;
+}
+.header__logo-title--span{
+    color: wheat;
+    font-size: 30px;
+
+}
+.main{
+    background-color: blueviolet;
+    height: calc(100vh - 183px);
+    padding: 30px 10px;
+}
+.main__btn{
+    padding: 20px 5px;
+    background-color: aquamarine;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(8, 8, 7);
+    border-radius: 15px;
+    font-weight: bold;
+}
+.quiz{
+    height: calc(100vh - 183px);
+}
+.main__title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.main__subtitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.main__subtitle:nth-child(4){
+    margin-bottom: 70px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.footer{
+    padding: 30px 0;
+    border-top: 2px solid red;
+    background-color: blueviolet;
+}
+.item-img img{
+    width: 200px;
+}
+.cardContainer{
+    display: flex;
+    width: 500px;
+}
+.item-title{
+    margin-bottom: 20px;
+}
+.item-subtitle{
+    margin-bottom: 60px;
+}
+.item-info{
+    margin-left: 30px;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+}
+.answer__the_question{
+    margin-bottom: 10px;
+}
+.answer_body{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    color: #ccff00;
+    transition: 0.2s linear;
+}
+label:hover{
+    color: #00ff40;
+}
+label input{
+    margin-right: 20px;
+}
+
+.win{
+    display: none;
+    width: 300px;
+}
+
+
+.quiz-body{
+    display: none;
+    background-color: blueviolet;
+    border-top: 2px solid black;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 70px;
+}
+.question p{
+    font-size: 30px;
+    margin-right: 30px;
+    color: #ccff00;
+    
+}
+.answer{
+    width: 300px;
+}
+.check-btn{
+    margin-top: 30px;
+}
