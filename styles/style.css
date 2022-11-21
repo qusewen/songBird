@@ -406,3 +406,69 @@ main{
 
 
 
+@media (max-width: 1600px) {
+    .quiz-body{
+        height: 100%;
+    }
+    .main{
+        height: 100%;
+    }
+}
+@media (max-width: 1136px) {
+    .question{
+        flex-direction: column;
+    }
+    .question p{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 920px) {
+    .answer_body{
+        display: grid;
+    justify-content: center;
+    justify-items: center;
+    }
+    .answer{
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .question p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 666px) {
+    .header .container{
+        flex-direction: column;
+    }
+    .question p{
+        font-size: 25px;
+    }
+    .item-subtitle{
+        width: 90%;
+    }
+    main{
+        overflow: hidden;
+    }
+    .cardContainer{
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+    .footer .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .main__btn{
+        width: 350px;
+    }
+    .win__title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1600px) {
+}
